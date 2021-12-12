@@ -9,7 +9,7 @@ $play.addEventListener('click',landlePlay)
 $pause.addEventListener('click',landlePause)
 $backward.addEventListener('click',landleBackward)
 $forward.addEventListener('click',landleForward)
-$video.addEventListener('loadedmetadarta',handleLoaded)
+$video.addEventListener('loadedmetadata',handleLoaded)
 $video.addEventListener('timeupdate',handleTimeUpdate)
 $progress.addEventListener('input',handleInput)
 
